@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Kefir';
+    src: url('kefir-black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C76B0F;
+    font-family: 'Kefir', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#alphabetButton {
+    padding: 20px 40px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color: rgb(240, 210, 155);
+    border: 5px solid #603101;
+    color: #603101;
+    border-radius: 10px;
+    font-family: 'Kefir', Arial, sans-serif;
+    transition: transform 0.1s;
+}
+
+#alphabetButton:hover {
+    transform: scale(1.05);
+}
+
+#alphabetButton:active {
+    transform: scale(0.98);
+}
